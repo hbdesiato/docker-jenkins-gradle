@@ -1,4 +1,4 @@
-FROM jenkinsci/jenkins
+FROM jenkins/jenkins
 
 ENV SDKMAN_DIR /usr/share/sdkman/dir
 
