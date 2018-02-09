@@ -14,4 +14,4 @@ SHELL ["/bin/bash", "-c"]
 RUN curl -s "https://get.sdkman.io" | bash \
     && source "$SDKMAN_DIR/bin/sdkman-init.sh" \
     && sdk install gradle \
-    && /usr/local/bin/install-plugins.sh git gradle workflow-aggregator pipeline-utility-steps
+    && /usr/local/bin/install-plugins.sh git gradle workflow-aggregator pipeline-utility-steps active-directory
